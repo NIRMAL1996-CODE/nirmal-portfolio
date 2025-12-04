@@ -26,7 +26,7 @@ const Hero = () => {
         Frontend Developer skilled in React.js, Three.js, GSAP & UI Animation
       </p>
 
-      <a href="projects"
+      <a href="#projects"
         className="px-10 py-4 bg-white text-black font-semibold rounded-2xl shadow-xl hover:scale-105 transition-transform duration-300">
           See My Work
       </a>
