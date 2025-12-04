@@ -1,6 +1,22 @@
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { useRef } from "react";
+
 const Hero = () => {
+  const heroRef = useRef(null); // points to the section
+
+  useGSAP(()=>{
+    gsap.from(heroRef.current.querySelectorAll("h1,p,a"),{
+      opacity:0,
+      scale: 0.8,
+      duration:0.6,
+      delay:1,
+      stagger: 0.2
+    })
+
+  })
   return (
-    <section id="home" className="h-screen flex flex-col justify-center items-center text-center px-6 bg-linear-to-br from-[#d3a49f] via-[#1a0a0a] to-[#0d0d0d] text-white">
+    <section ref={heroRef} id="home" className="h-screen flex flex-col justify-center items-center text-center px-6 bg-linear-to-br from-[#d3a49f] via-[#1a0a0a] to-[#0d0d0d] text-white">
       
       <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight">
         Hi, I'm <span className="text-white/90">Nirmal Jaiswal</span>

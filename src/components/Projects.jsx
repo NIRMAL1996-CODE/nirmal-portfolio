@@ -58,7 +58,7 @@ const Projects = () => {
                 </span>
             </div>
 
-            <h3 classname="text-xl font-semibold mb-2">{p.title}</h3>
+            <h3 className="text-xl font-semibold mb-2">{p.title}</h3>
             <p className="text-sm mb-4">{p.desc}</p>
             
             <a href={p.link} target="_blank" rel="noopener noreferrer">
