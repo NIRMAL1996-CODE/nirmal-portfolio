@@ -13,7 +13,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen bg-linear-to-br from-[#d3a49f] via-[#1a0a0a] to-[#0d0d0d] text-white px-6 py-20"
+      className="min-h-screen bg-linear-to-br from-[#d92e1b] via-[#1a0a0a] to-[#0d0d0d] text-white px-6 py-20"
     >
       <h1 className="text-4xl font-bold text-center mb-12">Contact Me</h1>
 

@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer
       id="footer"
-      className="bg-linear-to-r from-[#d3a49f] via-[#1a0a0a] to-[#0d0d0d] text-white py-12 border-t border-gray-700"
+      className="bg-linear-to-r from-[#d92e1b] via-[#1a0a0a] to-[#0d0d0d] text-white py-12 border-t border-gray-700"
     >
       <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center md:items-start gap-6 md:gap-0">
         

@@ -16,7 +16,7 @@ const Hero = () => {
 
   })
   return (
-    <section ref={heroRef} id="home" className="h-screen flex justify-center items-center px-6 bg-linear-to-br from-[#d3a49f] via-[#1a0a0a] to-[#0d0d0d] text-white">
+    <section ref={heroRef} id="home" className="h-screen flex justify-center items-center px-6 bg-linear-to-br from-[#d92e1b] via-[#1a0a0a] to-[#0d0d0d] text-white">
       <div className="bg-white/10 backdrop-blur-2xl w-full max-w-4xl sm:h-[400px] h-[350px] flex flex-col justify-center items-center text-center rounded-3xl p-6 mx-4 sm:mx-auto">
 
       <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight">
