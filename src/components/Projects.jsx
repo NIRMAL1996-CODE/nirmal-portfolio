@@ -4,6 +4,18 @@
 const Projects = () => {
   const projects = [
     {
+  title: "Playwright UI & API Automation",
+  desc: "Automated 30+ UI and REST API test cases using Playwright and JavaScript. Implemented POM, automated CRUD API testing, validated responses, authentication, negative scenarios, and generated HTML reports.",
+  img: "/playwright.png", // add screenshot/logo in public folder
+  link: "YOUR_GITHUB_REPO_LINK"
+},
+{
+  title: "Manual Testing & Bug Reporting",
+  desc: "Designed test cases, performed Smoke, Regression, and Exploratory testing. Conducted bug reporting using JIRA and performed REST API testing using Postman.",
+  img: "/manual-testing.png", // add screenshot/logo in public folder
+  link: "YOUR_GITHUB_REPO_LINK"
+},
+    {
       title: "3D Haunted House",
       desc: "Interactive haunted house using Three.js with lights, textures & ghost animations.",
       img: "/haunt.jpg",
@@ -32,12 +44,6 @@ const Projects = () => {
       desc: "Premium wholesale snacks & drinks website using React.",
       img: "/storedrink.jpg",
       link: "https://ramdhani-beverages-website.vercel.app/"
-    },
-    {
-      title: "E-commerce Website",
-      desc: "React + Tailwind minimal clean shopping UI.",
-      img: "/ecommerce.jpg",
-      link: "https://fashion-shop-ecommerce-orcin.vercel.app/"
     },
   ];
 

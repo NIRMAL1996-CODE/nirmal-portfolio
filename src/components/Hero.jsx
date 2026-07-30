@@ -24,8 +24,8 @@ const Hero = () => {
       </h1>
 
       <p className="text-2xl md:text-3xl mb-10 max-w-2xl">
-        Frontend Developer skilled in React.js, Three.js, GSAP & UI Animation
-      </p>
+  Building reliable UI & API test automation using Playwright, JavaScript, Postman, and modern QA practices.
+</p>
 
       <a href="#projects"
         className="px-10 py-4 bg-white text-black font-semibold rounded-2xl shadow-xl hover:scale-105 transition-transform duration-300">
